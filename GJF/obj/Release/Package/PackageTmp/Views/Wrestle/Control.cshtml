@@ -1,0 +1,213 @@
+﻿@model GJF.Domain.Models.Wrestle.WrestleEditModel
+
+@{
+    Layout = null;
+}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Custom/wrestleControl.css" rel="stylesheet" />
+<link href="~/Content/Custom/remodal-default-theme.css" rel="stylesheet" />
+<link href="~/Content/Custom/remodal.css" rel="stylesheet" />
+<link href="~/Content/Custom/winner.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+@*<link href="~/Content/Site.css" rel="stylesheet" />
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<link href="~/Content/Custom/Body.css" rel="stylesheet" />
+<link href="~/Content/Custom/Board.css" rel="stylesheet" />*@
+
+@{
+
+    var wrestleId = Model.Id;
+
+    var sportsmanOneIppon = 0;
+    if (Model.SporstmanOneIppon == false)
+    {
+        sportsmanOneIppon = 0;
+    }
+    else
+    {
+        sportsmanOneIppon = 1;
+    }
+    var sportsmanTwoIppon = 0;
+
+    if (Model.SporstmanTwoIppon == false)
+    {
+        sportsmanTwoIppon = 0;
+    }
+    else
+    {
+        sportsmanTwoIppon = 1;
+    }
+
+
+}
+
+
+
+<input type="hidden" value="@Model.Id" id="wrestleId" />
+
+
+<body>
+
+    <div class="container-fluid white">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="name">@Model.SportsmanOne.Surname </div>
+            </div>
+            <div class="col-sm-3"><button id="sportsman1_auto_win" type="button" class="btn btn-primary winner-1">ავტომატური გამარჯვება</button></div>
+            <div class="col-sm-1">
+                <div class="score-name">იპონი</div>
+            </div>
+            <div class="col-sm-1">
+                <div id="sportsman1_ippon_point"  class="score">@sportsmanOneIppon</div>
+            </div>
+            <div class="col-sm-1">
+                <div class="score-name">ვაზარი</div>
+            </div>
+            <div class="col-sm-1">
+                <div id="sportsman1_wazari_point" class="score">@Model.SporstmanOneWazariPoint</div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="city">@Model.SportsmanOne.Region.Name</div>
+            </div>
+            <div class="col-sm-5">
+                <div class="penalty">
+                    <div id="sportsman1_reload_fine_point">
+                        @if (Model.SportmanOneFine > 0)
+                        {
+                            <div class="card-1"></div>
+                        }
+
+                        @if (Model.SportmanOneFine > 1)
+                        {
+                            <div class="card-1"></div>
+                        }
+
+                        @if (Model.SportmanOneFine > 2)
+                        {
+                            <div class="card-2"></div>
+                        }
+                    </div>
+                    <button id="sportsman1_remove_fine_point"  type="button" class="btn btn-primary">-</button>
+                    <button id="sportsman1_add_fine_point"  type="button" class="btn btn-primary">+</button>
+                    <p class="desc">გაფრთხილება</p><div id="sportsman1_fine" >@Model.SportmanOneFine</div>
+                </div>
+            </div>
+            <div class="col-sm-1 col-sm-offset-1 score_control">
+                <button id="sportsman1_remove_ippon_point"  type="button" class="btn btn-primary">-</button>
+                <button id="sportsman1_add_ippon_point"   type="button" class="btn btn-primary">+</button>
+            </div>
+            <div class="col-sm-1 col-sm-offset-1">
+                <button id="sportsman1_remove_wazari_point" type="button" class="btn btn-primary score-controllers">-</button>
+                <button id="sportsman1_add_wazari_point" type="button" class="btn btn-primary score-controllers">+</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid blue">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="name">@Model.SportsmanTwo.Surname</div>
+            </div>
+            <div class="col-sm-3"><button id="sportsman2_auto_win" type="button" class="btn btn-primary winner-1">ავტომატური გამარჯვება</button></div>
+            <div class="col-sm-1">
+                <div class="score-name">იპონი</div>
+            </div>
+            <div class="col-sm-1">
+                <div id="sportsman2_ippon_point" class="score">@sportsmanTwoIppon</div>
+            </div>
+            <div class="col-sm-1">
+                <div class="score-name">ვაზარი</div>
+            </div>
+            <div class="col-sm-1">
+                <div id="sportsman2_wazari_point" class="score">@Model.SporstmanTwoWazariPoint</div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="city">@Model.SportsmanTwo.Region.Name</div>
+            </div>
+            <div class="col-sm-5">
+                <div class="penalty">
+                    <div id="sportsman2_reload_fine_point">
+                        @if (Model.SportmanTwoFine > 0)
+                        {
+                            <div class="card-1"></div>
+                        }
+
+                        @if (Model.SportmanTwoFine > 1)
+                        {
+                            <div class="card-1"></div>
+                        }
+
+                        @if (Model.SportmanTwoFine > 2)
+                        {
+                            <div class="card-2"></div>
+                        }
+                    </div>
+                    <button id="sportsman2_remove_fine_point" type="button" class="btn btn-primary">-</button>
+                    <button id="sportsman2_add_fine_point" type="button" class="btn btn-primary">+</button>
+                    <p class="desc">გაფრთხილება</p><div id="sportsman2_fine">@Model.SportmanTwoFine</div>
+                </div>
+            </div>
+            <div class="col-sm-1 col-sm-offset-1 score_control">
+                <button id="sportsman2_remove_ippon_point" type="button" class="btn btn-primary">-</button>
+                <button id="sportsman2_add_ippon_point"  type="button" class="btn btn-primary">+</button>
+            </div>
+            <div class="col-sm-1 col-sm-offset-1">
+                <button id="sportsman2_remove_wazari_point" type="button" class="btn btn-primary score-controllers">-</button>
+                <button id="sportsman2_add_wazari_point" type="button" class="btn btn-primary score-controllers">+</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid black">
+        <div class="row">
+            <div class="col-sm-1 col-sm-offset-5"><button id="start_counter" onclick="startCounter()" type="button" class="btn btn-primary start">დაწყება</button></div>
+            <div class="col-sm-1"><button  onclick="stopCounter()" type="button" class="btn btn-primary stop">გაჩერება</button></div>
+            <div class="col-sm-1"><button onclick="resetCounter()" type="button" class="btn btn-primary reset">განულება</button></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-5 ">
+                <div class="weight">@Model.SportsmanOne.Weight კგ</div>
+            </div>
+            <div class="col-sm-7">
+                <div class="time"><span id="timer">4:00</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="remodal" data-remodal-id="modal" >
+        <h1>გამარჯვებულია @Model.SportsmanOne.Surname</h1>
+       
+    </div>
+    <div class="remodal" data-remodal-id="modal2" >
+        <h1>გამარჯვებულია @Model.SportsmanTwo.Surname</h1>
+    </div>
+    <div id="checkTime" class="hidediv">1</div>
+</body>
+
+
+
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.signalR-2.2.2.js"></script>
+<script src="~/SignalR/hubs"></script>
+<script src="~/Scripts/Custom/SignalR/BoardHub.js"></script>
+<script src="~/Scripts/Custom/Wrestle/timer.js"></script>
+<script src="~/Scripts/Custom/Wrestle/remodal.js"></script>
+<script src="~/Scripts/Custom/Wrestle/remodal_test.js"></script>
+

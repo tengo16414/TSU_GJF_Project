@@ -1,0 +1,7 @@
+﻿.remodal-overlay.without-animation.remodal-is-opening,
+.remodal-overlay.without-animation.remodal-is-closing,
+.remodal.without-animation.remodal-is-opening,
+.remodal.without-animation.remodal-is-closing,
+.remodal-bg.without-animation.remodal-is-opening,
+.remodal-bg.without-animation.remodal-is-closing {
+    animation: none;

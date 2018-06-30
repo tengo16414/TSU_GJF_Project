@@ -1,0 +1,106 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.top_div {
+    height: 50%;
+}
+
+.bottom_div {
+    height: 50%;
+}
+
+.parent_div {
+    height:100%
+}
+
+
+.vertical-center {
+    height: 100%;
+    text-align: center; /* align the inline(-block) elements horizontally */
+    font: 0/0 a;
+}
+
+    .vertical-center:before { /* create a full-height inline block pseudo=element */
+        content: ' ';
+        display: inline-block;
+        vertical-align: middle; /* vertical alignment of the inline element */
+        height: 100%;
+    }
+
+    .vertical-center > .container {
+        max-width: 100%;
+        display: inline-block;
+        vertical-align: middle; /* vertical alignment of the inline element */
+    }
+
+.div_proportion_forty {
+    height: 40%;
+    width: 100%;
+}
+
+.full_height{
+    height:100%
+}
+
+.width_auto{
+    width: auto;
+}
+
+.padding_zero {
+    padding: 0px !important;
+}
+
+.background_primary_color {
+    background-color: #2196F3;
+}
+
+.background_secondary_color {
+    background-color:white;
+}
+
+
+.k-widget.k-window .form-group {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.component-height{
+    max-width:none;
+    height: 34px;
+}
+
+#users-window {
+    width: 450px;
+    height: 500px;
+}
+
+#undo {
+    text-align: center;
+    position: absolute;
+    white-space: nowrap;
+    border-width: 1px;
+    border-style: solid;
+    padding: 2em;
+    cursor: pointer;
+}

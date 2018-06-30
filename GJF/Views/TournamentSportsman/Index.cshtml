@@ -1,0 +1,53 @@
+﻿@using GJF.Domain.Models.TournamentSportsman
+
+@{
+    var tournamentId = (int)ViewBag.id;
+}
+
+@(Html.Kendo().Grid<TournamentSportsmanViewModel>()
+    .Name("SportsmenGrid")
+    .Columns(columns =>
+    {
+        columns.Bound(p => p.Id).Hidden(true);
+        columns.Bound(p => p.Sportsman.Name).Filterable(ftb => ftb.Cell(cell => cell.Operator("contains").ShowOperators(false)));
+        columns.Bound(p => p.Sportsman.Surname).Filterable(ftb => ftb.Cell(cell => cell.Operator("contains").ShowOperators(false)));
+        columns.Bound(p => p.Sportsman.Region.Name).Filterable(ftb => ftb.Cell(cell => cell.Operator("contains").ShowOperators(false)));
+        columns.Bound(p => p.Seeded).ClientTemplate("#= (Seeded == true) ? 'კი' : 'არა' #").Filterable(ftb => ftb.Messages(m => m.IsFalse("არა")).Messages(m => m.IsTrue("კი")).Cell(cell => cell.Operator("eq").ShowOperators(false)));
+        columns.Template(c => { }).ClientTemplate(CommandTemplate().ToHtmlString()).Width(250);
+    })
+    .Filterable(ftb => ftb.Mode(GridFilterMode.Row))
+    .ToolBar(toolbar => toolbar.Create().Text("  სპორცმენის დამატება").HtmlAttributes(new { style = "padding:10px;", href = Url.Action("Create", "TournamentSportsman", new { id = tournamentId }) }))
+    .Pageable(pageable => pageable
+      .Refresh(true)
+      .PageSizes(true)
+      .ButtonCount(5))
+    .Editable(editable => editable.Enabled(false))
+    .Sortable()
+    .Scrollable()
+    .HtmlAttributes(new { style = "height:550px;" })
+    .DataSource(dataSource => dataSource
+         .Ajax()
+         .PageSize(10)
+         .Model(model =>
+         {
+             model.Id(p => p.Id);
+         })
+        .Read(read => read.Action("GetAllSportsman", "TournamentSportsman", new { id = tournamentId }))
+        .Destroy(update => update.Action("Delete", "TournamentSportsman"))
+    )
+)
+
+@Html.ActionLink("ტურნირის შედგენა", "Generate", "TournamentSportsman", new { id = tournamentId }, new { @class = "btn btn-primary pull-right" })  
+
+@helper CommandTemplate()
+{
+    <a class="k-button k-button-icontext k-grid-edit" title="ჩასწორება" href="@Url.Action("Edit","TournamentSportsman")?id=#=Id#">
+        <span class="k-icon k-edit"></span> ჩასწორება
+    </a>
+    <a class="k-button k-button-icontext k-grid-delete RecordDeleteButton" data-grid-id="UsersGrid" style="color:white; background: red;" title="წაშლა" href="\\#">
+        <span class="k-icon k-delete"></span>წაშლა
+    </a>
+}
+
+
+<script src="~/Scripts/Custom/Kendo/GridItemsPerPageRemover.js"></script>

@@ -1,0 +1,39 @@
+﻿@using GJF.Domain.Models.Region
+
+
+@(Html.Kendo().Grid<RegionViewModel>()
+      .Name("RegionsGrid")
+      .Columns(columns =>
+      {
+          columns.Bound(p => p.Id).Hidden(true);
+          columns.Bound(p => p.Name).Filterable(ftb => ftb.Cell(cell => cell.Operator("contains").ShowOperators(false)));
+          columns.Command(command => { command.Edit().Text("ჩასწორება"); command.Destroy().Text("წაშლა").HtmlAttributes(new { style = "color: white; background: red;" }); }).Title("მოქმედება").Width(300);
+      })
+      .Filterable(ftb => ftb.Mode(GridFilterMode.Row))
+      .ToolBar(toolbar => toolbar.Create().Text("რეგიონის დამატება").HtmlAttributes(new { style = "padding:10px;" }))
+      .Editable(editable =>
+      {
+          editable.Mode(GridEditMode.InLine);
+          editable.DisplayDeleteConfirmation("ნამდვილად გსურთ აღნიშნული რეგიონის წაშლა?");
+      })
+      .Pageable(pageable => pageable
+          .Refresh(true)
+          .PageSizes(true)
+          .ButtonCount(5))
+      .Sortable()
+      .Scrollable()
+      .HtmlAttributes(new { style = "height:550px;" })
+      .DataSource(dataSource => dataSource
+          .Ajax()
+          .PageSize(10)
+          .Model(model => model.Id(p => p.Id))
+          .Create(update => update.Action("AddRegion", "Region"))
+          .Read(read => read.Action("GetRegions", "Region"))
+          .Update(update => update.Action("EditRegion", "Region"))
+          .Destroy(update => update.Action("DeleteRegion", "Region"))
+      )
+      )
+
+<script src="~/Scripts/Custom/Kendo/GridItemsPerPageRemover.js"></script>
+<script src="~/Scripts/Custom/Kendo/GridValidation.js"></script>
+

@@ -1,0 +1,78 @@
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\GJF.DAL.dll.config
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\GJF.DAL.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\GJF.DAL.pdb
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\EntityFramework.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\GJF.Domain.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\Ninject.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\System.Web.Mvc.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\System.Web.Razor.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\System.Web.WebPages.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\GJF.Domain.pdb
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\GJF.Domain.dll.config
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\EntityFramework.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\Ninject.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\obj\Debug\GJF.DAL.csprojResolveAssemblyReference.cache
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\obj\Debug\GJF.DAL.csproj.CoreCompileInputs.cache
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\obj\Debug\GJF.DAL.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\obj\Debug\GJF.DAL.pdb
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\obj\Debug\GJF.DAL.Migrations.WrestleUpdate.resources
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\obj\Debug\GJF.DAL.csproj.GenerateResource.Cache
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\obj\Debug\GJF.DAL.Migrations.SportsmanModelChanged.resources
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\obj\Debug\GJF.DAL.Migrations.SexRemoved.resources
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\obj\Debug\GJF.DAL.Migrations.SexAdded.resources
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\obj\Debug\GJF.DAL.Migrations.SportsmanSexAdded.resources
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\System.Web.Helpers.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\System.Web.Helpers.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\System.Web.Mvc.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\System.Web.Razor.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\System.Web.WebPages.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.DAL\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\GJF.DAL.dll.config
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\GJF.DAL.dll
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\GJF.DAL.pdb
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\EntityFramework.dll
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\GJF.Domain.dll
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\Ninject.dll
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\System.Web.Helpers.dll
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\System.Web.Mvc.dll
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\System.Web.Razor.dll
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\System.Web.WebPages.dll
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\GJF.Domain.pdb
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\GJF.Domain.dll.config
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\EntityFramework.xml
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\Ninject.xml
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\System.Web.Helpers.xml
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\System.Web.Mvc.xml
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\System.Web.Razor.xml
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\System.Web.WebPages.xml
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\tengo\Downloads\GJF\GJF.DAL\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\tengo\Downloads\GJF\GJF.DAL\obj\Debug\GJF.DAL.csprojResolveAssemblyReference.cache
+C:\Users\tengo\Downloads\GJF\GJF.DAL\obj\Debug\GJF.DAL.Migrations.WrestleUpdate.resources
+C:\Users\tengo\Downloads\GJF\GJF.DAL\obj\Debug\GJF.DAL.Migrations.SportsmanModelChanged.resources
+C:\Users\tengo\Downloads\GJF\GJF.DAL\obj\Debug\GJF.DAL.Migrations.SexRemoved.resources
+C:\Users\tengo\Downloads\GJF\GJF.DAL\obj\Debug\GJF.DAL.Migrations.SexAdded.resources
+C:\Users\tengo\Downloads\GJF\GJF.DAL\obj\Debug\GJF.DAL.Migrations.SportsmanSexAdded.resources
+C:\Users\tengo\Downloads\GJF\GJF.DAL\obj\Debug\GJF.DAL.csproj.GenerateResource.Cache
+C:\Users\tengo\Downloads\GJF\GJF.DAL\obj\Debug\GJF.DAL.csproj.CoreCompileInputs.cache
+C:\Users\tengo\Downloads\GJF\GJF.DAL\obj\Debug\GJF.DAL.dll
+C:\Users\tengo\Downloads\GJF\GJF.DAL\obj\Debug\GJF.DAL.pdb

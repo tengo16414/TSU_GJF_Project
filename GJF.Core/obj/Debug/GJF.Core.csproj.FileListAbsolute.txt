@@ -1,0 +1,80 @@
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\GJF.Core.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\GJF.Core.pdb
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\AutoMapper.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\GJF.BLL.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\GJF.DAL.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\GJF.Domain.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\Ninject.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\Ninject.Web.Common.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\GJF.Common.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\EntityFramework.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\System.Web.Mvc.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\System.Web.Razor.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\System.Web.WebPages.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\GJF.BLL.pdb
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\GJF.BLL.dll.config
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\GJF.DAL.pdb
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\GJF.DAL.dll.config
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\GJF.Domain.pdb
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\GJF.Domain.dll.config
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\AutoMapper.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\Ninject.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\Ninject.Web.Common.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\GJF.Common.pdb
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\EntityFramework.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\obj\Debug\GJF.Core.csprojResolveAssemblyReference.cache
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\obj\Debug\GJF.Core.csproj.CoreCompileInputs.cache
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\obj\Debug\GJF.Core.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\obj\Debug\GJF.Core.pdb
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\System.Web.Helpers.dll
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\System.Web.Helpers.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\System.Web.Mvc.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\System.Web.Razor.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\System.Web.WebPages.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\gmets\Documents\Visual Studio 2017\Projects\GJF\GJF.Core\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\GJF.Core.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\GJF.Core.pdb
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\AutoMapper.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\GJF.BLL.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\GJF.DAL.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\GJF.Domain.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\Ninject.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\Ninject.Web.Common.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\System.Web.Helpers.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\System.Web.Mvc.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\System.Web.Razor.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\System.Web.WebPages.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\GJF.Common.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\EntityFramework.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\GJF.BLL.pdb
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\GJF.BLL.dll.config
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\GJF.DAL.pdb
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\GJF.DAL.dll.config
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\GJF.Domain.pdb
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\GJF.Domain.dll.config
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\AutoMapper.xml
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\Ninject.xml
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\Ninject.Web.Common.xml
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\System.Web.Helpers.xml
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\System.Web.Mvc.xml
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\System.Web.Razor.xml
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\System.Web.WebPages.xml
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\GJF.Common.pdb
+C:\Users\tengo\Downloads\GJF\GJF.Core\bin\Debug\EntityFramework.xml
+C:\Users\tengo\Downloads\GJF\GJF.Core\obj\Debug\GJF.Core.csprojResolveAssemblyReference.cache
+C:\Users\tengo\Downloads\GJF\GJF.Core\obj\Debug\GJF.Core.csproj.CoreCompileInputs.cache
+C:\Users\tengo\Downloads\GJF\GJF.Core\obj\Debug\GJF.Core.dll
+C:\Users\tengo\Downloads\GJF\GJF.Core\obj\Debug\GJF.Core.pdb

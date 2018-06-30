@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GJF", "GJF\GJF.csproj", "{141CAC14-170E-4095-9EA8-8C290965D061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GJF.Tests", "GJF.Tests\GJF.Tests.csproj", "{530593AB-EB51-45C9-963E-21FA91CB034A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GJF.DAL", "GJF.DAL\GJF.DAL.csproj", "{6CEBBB62-9956-4A49-B241-32A46BDF04E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GJF.Domain", "GJF.Domain\GJF.Domain.csproj", "{3499C73B-43B4-4754-8E32-F33E5E57FC71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GJF.Common", "GJF.Common\GJF.Common.csproj", "{5F1BD679-1A0C-45E3-B61A-1CD7D9C214F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GJF.BLL", "GJF.BLL\GJF.BLL.csproj", "{8BF22437-4606-4C21-91B9-9A538C836204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GJF.Core", "GJF.Core\GJF.Core.csproj", "{A67904A7-3A33-4103-B522-FEDE344ED04A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{141CAC14-170E-4095-9EA8-8C290965D061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141CAC14-170E-4095-9EA8-8C290965D061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141CAC14-170E-4095-9EA8-8C290965D061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141CAC14-170E-4095-9EA8-8C290965D061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530593AB-EB51-45C9-963E-21FA91CB034A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530593AB-EB51-45C9-963E-21FA91CB034A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530593AB-EB51-45C9-963E-21FA91CB034A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530593AB-EB51-45C9-963E-21FA91CB034A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CEBBB62-9956-4A49-B241-32A46BDF04E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CEBBB62-9956-4A49-B241-32A46BDF04E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CEBBB62-9956-4A49-B241-32A46BDF04E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CEBBB62-9956-4A49-B241-32A46BDF04E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3499C73B-43B4-4754-8E32-F33E5E57FC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3499C73B-43B4-4754-8E32-F33E5E57FC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3499C73B-43B4-4754-8E32-F33E5E57FC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3499C73B-43B4-4754-8E32-F33E5E57FC71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1BD679-1A0C-45E3-B61A-1CD7D9C214F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1BD679-1A0C-45E3-B61A-1CD7D9C214F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1BD679-1A0C-45E3-B61A-1CD7D9C214F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1BD679-1A0C-45E3-B61A-1CD7D9C214F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BF22437-4606-4C21-91B9-9A538C836204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF22437-4606-4C21-91B9-9A538C836204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF22437-4606-4C21-91B9-9A538C836204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF22437-4606-4C21-91B9-9A538C836204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67904A7-3A33-4103-B522-FEDE344ED04A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67904A7-3A33-4103-B522-FEDE344ED04A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67904A7-3A33-4103-B522-FEDE344ED04A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67904A7-3A33-4103-B522-FEDE344ED04A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA44831E-108D-44B5-A813-2C2849257823}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tskhvari.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GJF.BLL\\GJF.BLL.csproj
+		SccProjectName1 = GJF.BLL
+		SccLocalPath1 = GJF.BLL
+		SccProjectUniqueName2 = GJF.Common\\GJF.Common.csproj
+		SccProjectName2 = GJF.Common
+		SccLocalPath2 = GJF.Common
+		SccProjectUniqueName3 = GJF.Core\\GJF.Core.csproj
+		SccProjectName3 = GJF.Core
+		SccLocalPath3 = GJF.Core
+		SccProjectUniqueName4 = GJF.DAL\\GJF.DAL.csproj
+		SccProjectName4 = GJF.DAL
+		SccLocalPath4 = GJF.DAL
+		SccProjectUniqueName5 = GJF.Domain\\GJF.Domain.csproj
+		SccProjectName5 = GJF.Domain
+		SccLocalPath5 = GJF.Domain
+		SccProjectUniqueName6 = GJF.Tests\\GJF.Tests.csproj
+		SccProjectName6 = GJF.Tests
+		SccLocalPath6 = GJF.Tests
+		SccProjectUniqueName7 = GJF\\GJF.csproj
+		SccProjectName7 = GJF
+		SccLocalPath7 = GJF
+	EndGlobalSection
+EndGlobal

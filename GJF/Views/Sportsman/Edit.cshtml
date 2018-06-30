@@ -1,0 +1,76 @@
+﻿@model GJF.Domain.Models.Sportsman.SportsmanEditModel
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal col-md-12">
+        <div class="col-md-offset-3 col-md-6">
+            <div>
+
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                @Html.HiddenFor(model => model.Id)
+                @Html.HiddenFor(model => model.Region)
+
+                <div class="form-group col-md-12">
+                    @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-3" })
+                    <div class="col-md-9">
+                        @(Html.Kendo().TextBoxFor(model => model.Name)
+         .Name("Name")
+         .HtmlAttributes(new { placeholder = "შეიყვანეთ სპორცმენის სახელი", @class = "form-control", style = "height:34px" }))
+                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group col-md-12">
+                    @Html.LabelFor(model => model.Surname, htmlAttributes: new { @class = "control-label col-md-3" })
+                    <div class="col-md-9">
+                        @(Html.Kendo().TextBoxFor(model => model.Surname)
+         .Name("Surname")
+         .HtmlAttributes(new { placeholder = "შეიყვანეთ სპორცმენის გვარი", @class = "form-control" }))
+                        @Html.ValidationMessageFor(model => model.Surname, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group col-md-12">
+                    @Html.LabelFor(model => model.RegionId, htmlAttributes: new { @class = "control-label col-md-3" })
+                    <div class="col-md-9">
+                        @(Html.Kendo().DropDownListFor(x => x.Region.Name)
+              .DataTextField("Text")
+              .Name("RegionId")
+              .DataValueField("Value")
+              .OptionLabel("აირჩიეთ სპორცმენის რეგიონი")
+              .DataSource(source =>
+              {
+                  source.Read(read =>
+                  {
+                      read.Action("GetRegions", "DropDown");
+                  });
+              })
+              .HtmlAttributes(new { @class = "form-control", style = "height: 34px" })
+                        )
+                        @Html.ValidationMessageFor(model => model.Region.Name, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group col-md-12">
+                    @Html.LabelFor(model => model.Rank, htmlAttributes: new { @class = "control-label col-md-3" })
+                    <div class="col-md-9">
+                        @(Html.Kendo().NumericTextBoxFor(model => model.Rank)
+         .Name("Rank")
+         .HtmlAttributes(new { placeholder = "შეიყვანეთ სპორცმენის რანგი", @class = "form-control", style = "height:34px" }))
+                        @Html.ValidationMessageFor(model => model.Rank, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group col-md-12">
+                    <button class="col-md-offset-3 col-md-9 btn blue" type="submit">დამატება</button>
+                </div>
+
+                <hr />
+            </div>
+        </div>
+    </div>
+}
+
+

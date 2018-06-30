@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "ControlPanel";
+}
+
+
+@*<style type="text/css">
+    .bj {
+        background-color: #99CCFF;
+        border: thick solid #808080;
+        padding: 20px;
+        margin: 20px;
+    }
+</style>
+<div class="bj">
+    <input type="text" id="message" />
+    <input type="button" id="sendmessage" value="Send" />
+    <input type="hidden" id="displayname" />
+    <ul id="discussion"></ul>
+</div>*@
+
+
+<div class="col-md-12">
+
+    <div class="col-md-6">
+        <input type="button" id="addBlueOne" value="1" />
+        <p>Lurji: </p>
+        <input type="text" id="blue" value="0" />
+        
+    </div>
+
+    <div class="col-md-6">
+        <input type="button" id="addRedOne" value="1" />
+        <p>Red: </p>
+        <p id="red">0</p>
+     </div>
+</div>
+
+
+@section scripts{
+
+    <script src="~/Scripts/jquery.signalR-2.2.2.js"></script>
+    <script src="~/SignalR/hubs"></script>
+    <script src="~/Scripts/Custom/SignalR/perfSurf.js"></script>
+
+}

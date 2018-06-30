@@ -1,0 +1,102 @@
+﻿body {
+    background-color: #000000;
+    font-family: 'BPG Nino Mtavruli';
+}
+
+
+button {
+    color: #ffffff;
+}
+
+.container-fluid {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.white {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.blue {
+    background-color: #0000ff;
+    color: #ffffff;
+}
+
+.black {
+    background-color: #0000;
+    color: #ffffff;
+}
+
+.name {
+    font-size: 4.5vw;
+}
+
+.winner-1,
+.winner-2 {
+    margin-top: 20px;
+    margin-left: 35px;
+    font-size: 1.5vw;
+}
+
+.winner-2 {
+    color: #ffffff;
+}
+
+.score {
+    text-align: center;
+    font-size: 7vw;
+    padding-right: 8px;
+}
+
+.score-name {
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 50%;
+}
+
+.city {
+    font-size: 2.5vw;
+    margin-top: -20px;
+}
+
+.penalty {
+    padding-left: 70px;
+}
+
+.desc {
+    font-size: 1.3vw;
+    margin-top: 10px;
+}
+
+.card-1 {
+    background-color: yellow;
+    width: 5vw;
+    height: 6vw;
+    border-radius: 5px;
+    float: left;
+    margin: 0 10px 0 10px;
+    border: 2px solid black;
+}
+
+.card-2 {
+    background-color: red;
+    width: 5vw;
+    height: 6vw;
+    border-radius: 5px;
+    float: left;
+    margin: 0 10px 0 10px;
+    border: 2px solid black;
+}
+
+.weight {
+    font-size: 9vw;
+}
+
+.time {
+    font-size: 9vw;
+    margin-left: 50px;
+}
+.hidediv {
+    display:none;
+}

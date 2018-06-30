@@ -1,0 +1,91 @@
+﻿body {
+    background-color: #000000;
+    font-family: 'BPG Nino Mtavruli';
+}
+
+
+button {
+    background-color: black;
+    border: none;
+}
+
+.container-fluid {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.white {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.blue {
+    background-color: #0000ff;
+    color: #ffffff;
+}
+
+.black {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.name {
+    font-size: 6vw;
+}
+
+.city {
+    font-size: 5vw;
+    margin-top: -20px
+}
+
+.penalty {
+    padding-left: 70px;
+}
+
+.score {
+    text-align: center;
+    font-size: 8vw;
+    font-weight: bold;
+}
+
+.penalty {
+    padding-left: 70px;
+}
+
+
+.card-1 {
+    background-color: yellow;
+    width: 6vw;
+    height: 7.5vw;
+    border-radius: 5px;
+    float: left;
+    margin: 0 10px 0 10px;
+    border: 2px solid black;
+}
+
+.card-2 {
+    background-color: red;
+    width: 6vw;
+    height: 7.5vw;
+    border-radius: 5px;
+    float: left;
+    margin: 0 10px 0 10px;
+    border: 2px solid black;
+}
+
+.weight {
+    font-size: 12vw;
+}
+
+.time {
+    font-size: 12vw;
+    margin-left: 50px;
+}
+
+.hid {
+    display: none;
+}
+
+button {
+display: none;
+}

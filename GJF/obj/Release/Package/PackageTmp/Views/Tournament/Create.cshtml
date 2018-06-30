@@ -1,0 +1,66 @@
+﻿@model GJF.Domain.Models.Tournament.TournamentEditModel
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal col-md-12">
+        <div class="col-md-offset-3 col-md-6">
+            <div>
+
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                @Html.HiddenFor(model => model.Id)
+                
+
+                <div class="form-group col-md-12">
+                    @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-3" })
+                    <div class="col-md-9">
+                        @(Html.Kendo().TextBoxFor(model => model.Name)
+         .Name("Name")
+         .HtmlAttributes(new { placeholder = "შეიყვანეთ ტურნირის დასახელება", @class = "form-control", style = "height:34px" }))
+                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group col-md-12">
+                    @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-3" })
+                    <div class="col-md-9">
+                        @(Html.Kendo().TextBoxFor(model => model.Description)
+         .Name("Description")
+         .HtmlAttributes(new { placeholder = "შეიყვანეთ ტურნირის აღწერა", @class = "form-control" }))
+                        @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group col-md-12">
+                    @Html.LabelFor(model => model.Date, htmlAttributes: new { @class = "control-label col-md-3" })
+                    <div class="col-md-9">
+                        @(Html.Kendo().DatePickerFor(model => model.Date)
+         .Name("Date")
+         .HtmlAttributes(new { placeholder = "შეიყვანეთ ტურნირის თარიღი", @class = "form-control" }))
+                        @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group col-md-12">
+                    @Html.LabelFor(model => model.NumberOfContestants, htmlAttributes: new { @class = "control-label col-md-3" })
+                    <div class="col-md-9">
+                        @(Html.Kendo().NumericTextBoxFor(model => model.NumberOfContestants)
+         .Name("NumberOfContestants")
+         .HtmlAttributes(new { placeholder = "შეიყვანეთ ტურნირის ზომა", @class = "form-control" }))
+                        @Html.ValidationMessageFor(model => model.NumberOfContestants, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+
+                <div class="form-group col-md-12">
+                    <button class="col-md-offset-3 col-md-9 btn blue" type="submit">დამატება</button>
+                </div>
+
+                <hr />
+            </div>
+        </div>
+    </div>
+}
+
+

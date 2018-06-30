@@ -1,0 +1,58 @@
+﻿@using GJF.Domain.Models.User
+
+@(Html.Kendo().Grid<UserViewModel>()
+    .Name("UsersGrid")
+    .Columns(columns =>
+    {
+        columns.Bound(p => p.Id).Hidden(true);
+        columns.Bound(p => p.UserName).Filterable(ftb => ftb.Cell(cell => cell.Operator("contains").ShowOperators(false)));
+        columns.Bound(p => p.FirstName).Filterable(ftb => ftb.Cell(cell => cell.Operator("contains").ShowOperators(false)));
+        columns.Bound(p => p.LastName).Filterable(ftb => ftb.Cell(cell => cell.Operator("contains").ShowOperators(false)));
+        columns.Bound(p => p.Role.Name).Filterable(ftb => ftb.Cell(cell => cell.Operator("contains").ShowOperators(false)));
+        columns.Template(c => { }).ClientTemplate(CommandTemplate().ToHtmlString()).Width(250);
+    })
+    .Filterable(ftb => ftb.Mode(GridFilterMode.Row))
+    .ToolBar(toolBar => toolBar.Template("<a class='k-button k-button-icontext' onclick='onAddOpen()' href='#'></span>მომხმარებლის დამატება</a>"))
+    .Pageable(pageable => pageable
+      .Refresh(true)
+      .PageSizes(true)
+      .ButtonCount(5))
+    .Editable(editable => editable.Enabled(false))
+    .Sortable()
+    .Scrollable()
+    .HtmlAttributes(new { style = "height:550px;" })
+    .DataSource(dataSource => dataSource
+         .Ajax()
+         .PageSize(10)
+         .Model(model =>
+         {
+             model.Id(p => p.Id);
+         })
+        .Read(read => read.Action("GetUsers", "User"))
+        .Destroy(update => update.Action("DeleteUser", "User"))
+    )
+)
+
+@(Html.Kendo().Window()
+    .Name("users-window")
+    .Title("მომხმარებელი")
+    .Content("მიმდინარეობს ჩატვირთვა")
+    .Events(ev => ev.Close("onClose"))
+    .Visible(false)
+    .Draggable()
+)
+
+@helper CommandTemplate()
+{
+    <a class="k-button k-button-icontext k-grid-edit" title="ჩასწორება" onclick='onEditOpen("#=Id#")' data-user-id="#=Id#">
+        <span class="k-icon k-edit"></span> ჩასწორება
+    </a>
+
+    <a class="k-button k-button-icontext k-grid-delete RecordDeleteButton" data-user-id="#=Id#" data-grid-id="UsersGrid" style="color:white; background: red;" title="წაშლა" href="\\#">
+        <span class="k-icon k-delete"></span>წაშლა
+    </a>
+}
+
+<script src="~/Scripts/Custom/Kendo/UsersWindow.js"></script>
+<script src="~/Scripts/Custom/Kendo/GridItemsPerPageRemover.js"></script>
+<script src="~/Scripts/Custom/Kendo/GridDeleteItem.js"></script>
